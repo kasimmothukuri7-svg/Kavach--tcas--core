@@ -29,8 +29,8 @@ module kavach_core (
     parameter GOODS         = 3'b100;
 
     // Trackside Hardware Marker IDs
-    parameter WHISTLE_RFID_TAG = 16'hAFAF; 
-    parameter SPAD_RFID_TAG    = 16'hEFEF;
+    parameter WHISTLE_RFID_TAG = 16'h1234; 
+    parameter SPAD_RFID_TAG    = 16'hABCD;
 
     reg [7:0] max_speed_limit;
     reg [3:0] warn_counter;
