@@ -52,3 +52,6 @@ The design was compiled and verified using **Icarus Verilog** on **EDA Playgroun
 ### Key Verified Testcases (EPWave Simulation):
 1. **Goods Train Profile Fault Test:** Validated that running a heavy Goods Train at 85 km/h (Ceiling: 75 km/h) triggers an overspeed warning sequence and drops steady service brakes after 10 clock intervals.
 2. **Immediate Head-on Lockout Test:** Confirmed single-cycle deployment of emergency lockdown protocols (`biu_brake_command = 2'b10`) when the `opposing_train` sensor goes HIGH, ignoring ongoing speed grace periods.
+
+6.Simulation Waveforms 
+Kavach Core simulation Waveform (waveform.png) 
