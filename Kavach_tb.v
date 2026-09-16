@@ -36,7 +36,7 @@ module kavach_tb;
     initial begin
         clk = 0;
         repeat (30) begin
-            #10 clk = ~clk;
+            #20 clk = ~clk;
         end
     end
 
